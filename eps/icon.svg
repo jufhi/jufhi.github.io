@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ЕПС: справочник и поиск">
+  <rect width="512" height="512" rx="112" fill="#143b50"/>
+  <path d="M112 174Q184 150 256 190Q328 150 400 174V334Q328 310 256 350Q184 310 112 334Z" fill="#fff"/>
+  <path d="M256 196V330" fill="none" stroke="#143b50" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="348" cy="192" r="58" fill="#143b50" stroke="#23beb1" stroke-width="18"/>
+  <path d="M390 234L427 271" fill="none" stroke="#23beb1" stroke-width="22" stroke-linecap="round"/>
+</svg>

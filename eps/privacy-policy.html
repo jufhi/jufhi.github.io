@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ЕПС Навигатор — конфиденциальность</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+  :root { --bg:#ffffff; --text:#222222; --muted:#5d6f75; --line:#dddddd; --link:#006c72; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0f1b20; --text:#e6eef0; --muted:#9db0b5; --line:#2a4049; --link:#7fd3cb; } }
+  :root[data-theme="dark"] { --bg:#0f1b20; --text:#e6eef0; --muted:#9db0b5; --line:#2a4049; --link:#7fd3cb; }
+  body { font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; max-width:760px; margin:0 auto; padding:24px 16px; line-height:1.6; color:var(--text); background:var(--bg) }
+  a { color:var(--link) } h1 { font-size:1.6rem } h2 { font-size:1.2rem; margin-top:2em }
+  hr { margin:3em 0; border:0; border-top:1px solid var(--line) } .muted { color:var(--muted) }
+</style>
+</head>
+<body>
+<h1>ЕПС Навигатор — политика конфиденциальности</h1>
+<p class="muted"><em>Дата обновления: 9 ноября 2026 г.</em></p>
+
+<p>Эта политика описывает, как программа <strong>ЕПС Навигатор</strong> (Windows, Android и веб-версия; далее — «Программа») обращается с информацией. Разработчик Программы — далее «мы».</p>
+
+<h2>1. Данные пациентов</h2>
+<p>Поиск, проверки и подсказки выполняются на вашем устройстве. Программа не отправляет введённые запросы и данные случая на наши или чужие серверы и не сохраняет их. Справочные таблицы не содержат данных пациентов. Программа не подключается к DamuMed и другим медицинским информационным системам и не читает медицинские карты.</p>
+
+<h2>2. Автоподсказки из буфера обмена</h2>
+<p>Если вы включили эту функцию, Программа читает текст, который вы скопировали (Ctrl+C), только в памяти устройства. Из него берутся коды диагноза, услуги и повода обращения, возраст, пол и статус ОСМС. ФИО, ИИН и остальной текст сразу отбрасываются, нигде не записываются и никуда не передаются. В программе для Windows функция включается только после вашего согласия и выключается в меню значка в области уведомлений. В веб-версии она включается флажком.</p>
+
+<h2>3. Лицензия</h2>
+<p>Для подписки Программа создаёт ключ в защищённом хранилище устройства. Вы сами отправляете нам файл запроса: в нём открытый ключ, его технический идентификатор, платформа и подпись запроса (в совместимом режиме Windows — также хэш установки Windows и профиля, без исходных идентификаторов). Медицинские данные в запрос не входят. Мы храним номер подписки, ключ устройства и оплаченный срок, чтобы выдавать и продлевать лицензию. Программа хранит на устройстве файл лицензии, контрольное время и настройки (например, включены ли автоподсказки).</p>
+
+<h2>4. Аналитика и реклама</h2>
+<p>В Программе нет аналитики, рекламы и сторонних SDK для сбора данных. Ссылки на официальные источники открываются в браузере; на внешних сайтах действуют их собственные правила.</p>
+
+<h2>5. Хранение и удаление</h2>
+<p>Данные о подписке хранятся, пока действует подписка, а после её окончания — столько, сколько нужно для продления и учёта платежей. Чтобы удалить их, напишите нам. Данные на устройстве удаляются вместе с Программой.</p>
+
+<h2>6. Изменения</h2>
+<p>Мы можем обновлять эту политику. Новая редакция публикуется на этой странице с новой датой.</p>
+
+<h2>7. Контакты</h2>
+<p>Вопросы: <a href="mailto:axmet2203@gmail.com">axmet2203@gmail.com</a></p>
+
+<hr>
+
+<h1>EPS Navigator — Privacy Policy</h1>
+<p class="muted"><em>Last updated: November 9, 2026</em></p>
+<p>Search, checks and hints run on your device. The app does not send entered queries or case details to any server and does not store them. Reference tables contain no patient records. The app does not connect to DamuMed or any other medical information system.</p>
+<p>If you turn on clipboard hints, the app reads copied text in memory only and keeps just diagnosis, service and reason codes, age, sex and insurance status. Names, personal identification numbers and the rest of the text are discarded immediately, never written to disk and never transmitted. On Windows the feature starts only after your consent and can be switched off from the tray icon menu.</p>
+<p>For a subscription you send us a device request file (public key, its technical identifier, platform, request signature). We keep the subscription number, device key and paid period to issue and renew licences. The app has no analytics, ads or third-party data collection SDKs. Contact: <a href="mailto:axmet2203@gmail.com">axmet2203@gmail.com</a></p>
+
+<p class="muted"><a href="./">ЕПС Навигатор</a> · <a href="../">Все проекты</a></p>
+</body>
+</html>
